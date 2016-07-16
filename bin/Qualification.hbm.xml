@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- mapping file for qualifcation relation -->
+ <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+     "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+  <hibernate-mapping>
+    <class name="com.crce.interns.dto.Qualification" table="HBQualification" >
+    <id name= "username" column="Username" />
+     <property name= "no_of_kts" column = "no_of_kts" />
+    <property name="percentage" column="percentage" />
+    <property name= "gpa" column = "gpa" />
+    <property name= "marks_obtained" column = "marks_obtained" />
+    <property name= "total_marks" column = "total_marks" />
+    
+    
+   </class>
+ </hibernate-mapping>
+ 
+ 
+ 
+ 
+ 

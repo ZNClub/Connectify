@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- mapping file for userdetails relation -->
+ <!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+     "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+  <hibernate-mapping>
+    <class name="com.crce.interns.dto.User" table="HBUserDetails" >
+    <id name= "username" column="Username" />
+     <property name= "user_password" column = "User_Password" />
+    <property name= "current_state" column = "Current_State" />
+    <property name= "role_id" column = "Role_Id" />
+    
+    
+   </class>
+ </hibernate-mapping>
+ 
+ 
+ 
+ 
+ 
